@@ -11,7 +11,7 @@ const cors = require('cors')
 connectDatabase();   
  
 app.use(cors({
-    origin:'https://sparkling-meringue-44e28b.netlify.app/',
+    origin:'https://chipper-figolla-d22ff2.netlify.app/',
     methods:["GET","POST","PUT","DELETE"],
     credentials:true,
 }))
