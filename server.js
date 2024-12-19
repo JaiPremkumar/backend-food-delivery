@@ -12,7 +12,7 @@ connectDatabase();
  
  
 app.use(cors({
-    origin:'https://cute-douhua-9ba391.netlify.app',
+  
     methods:["GET","POST","PUT","DELETE"],
     credentials:true,
 }))
