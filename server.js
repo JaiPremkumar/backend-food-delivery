@@ -8,10 +8,10 @@ const cors = require('cors')
 
 
  
-connectDatabase();   
+connectDatabase();    
  
 app.use(cors({
-    origin:'https://chipper-figolla-d22ff2.netlify.app/',
+    origin:'https://cute-douhua-9ba391.netlify.app/',
     methods:["GET","POST","PUT","DELETE"],
     credentials:true,
 }))
