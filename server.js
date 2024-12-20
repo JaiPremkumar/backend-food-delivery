@@ -11,12 +11,12 @@ const cors = require('cors')
 connectDatabase();   
 
 
-app.use(cors({
+/*app.use(cors({
     origin: 'https://cute-douhua-9ba391.netlify.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'], // Add required headers
     credentials: true
-  })); 
+  })); */
  
 //app.use(cors({ origin: '*' }));
 
