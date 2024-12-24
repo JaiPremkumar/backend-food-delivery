@@ -8,7 +8,7 @@ const cors = require('cors')
 
 
  
-connectDatabase();     
+connectDatabase();      
 
 
 /*app.use(cors({
@@ -18,7 +18,8 @@ connectDatabase();
     credentials: true
   })); */
 
-  app.use(cors("*"))
+  //app.use(cors("*"))
+  app.use(cors()); 
  
 //app.use(cors({ origin: '*' }));
 
