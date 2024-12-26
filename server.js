@@ -11,8 +11,8 @@ const cors = require('cors')
 connectDatabase();      
 
 
-app.use(cors({
-    origin: 'https://food-delivery-frontend-three-bice.vercel.app' || "*",
+app.use(cors({ 
+    origin:  "*",
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'], // Add required headers
     credentials: true 
