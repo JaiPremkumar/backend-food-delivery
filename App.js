@@ -1,4 +1,4 @@
-const express = require('express')
+/*const express = require('express')
 const app = express();
 const cookieParser = require('cookie-parser')
 const path = require('path')
@@ -25,7 +25,7 @@ app.use('/api/v1',orders)
 app.use('/api/v1/',users)
 app.use('/api/v1/',restarunt)
 app.use('/api/v1/',kitchen)
-app.use('/api/v1/',payment) 
+app.use('/api/v1/',payment)*/
 
 /*if(process.env.NODE_ENV = "development"){
    app.use(express.static(path.join(__dirname,'../frontent/my-app/build')))
@@ -34,5 +34,5 @@ app.use('/api/v1/',payment)
    })
 }*/
 
-module.exports = app
+//module.exports = app
 
