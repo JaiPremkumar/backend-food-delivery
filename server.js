@@ -12,7 +12,7 @@ connectDatabase();
 
 
 app.use(cors({
-    origin: ['https://food-delivery-frontend-2srpt50l7-prems-projects-b6c27550.vercel.app','http://localhost:3000'],
+    origin: ['https://food-delivery-frontend-three-bice.vercel.app/','http://localhost:3000'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'], // Add required headers
     credentials: true 
