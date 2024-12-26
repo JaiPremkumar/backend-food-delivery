@@ -1,11 +1,11 @@
 
-
 const express = require("express");
 const app = express();
 const cookieParser = require("cookie-parser");
 const connectDatabase = require("./config/database");
 const path = require("path");
 const dotenv = require("dotenv");
+const cors = require('cors')
 
 dotenv.config({ path: path.join(__dirname, "config/config.env") });
 
