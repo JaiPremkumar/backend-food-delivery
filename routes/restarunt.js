@@ -1,5 +1,5 @@
 const express = require('express')
-const { getRestarunt, getSingleRestarunt, createRestarunt } = require('../controllers/restaruntCntrl')
+const { getRestarunt, getSingleRestarunt, createRestarunt, deleteRestarunt } = require('../controllers/restaruntCntrl')
 const multer = require('multer');
 const path = require('path')
 const upload = multer({storage:multer.diskStorage({
@@ -18,5 +18,6 @@ const router = express.Router()
 router.route('/rest').get(getRestarunt)
 router.route('/rest/:id').get(getSingleRestarunt)
 router.route('/rest').post(upload.single('image'),createRestarunt)
+router.route('/rest/:id').delete(deleteRestarunt)
 
 module.exports = router
